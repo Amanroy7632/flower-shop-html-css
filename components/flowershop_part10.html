@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floweraura Red Rose</title>
+    <link rel="stylesheet" href="flowershop_part1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/square-1?f=classic&s=solid">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.ttf">
+    
+</head>
+
+<body>
+    <header>
+        <nav class="nav-section flex justify-content">
+            <section>
+                <div class="logo">
+                    <h3>Shopkart</h3>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#birthday">Birthday</a>
+                        </li>
+                        <li><a href="#">Anniversary</a></li>
+                        <li><a href="#flower-collection">Congratulation</a></li>
+                        <li><a href="#">Flowers & Gifts</a></li>
+                        <li><a href="#">Get Well</a></li>
+                        <li><a href="#">Love & Romance</a></li>
+                        <li><a href="#">New Baby</a></li>
+                        <li><a href="#">Sympthy</a></li>
+                        <li><a href="#">Thank you</a></li>
+                        <!-- <li></li> -->
+                        <li>
+                            <div class="search-box">
+
+                            
+                            <input id="search" type="text" placeholder="Search Anything">
+                            <!-- <input id="search-box" type="text"> -->
+                            <button id="search-button"><i class="fas fa-search"></i> </button>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </nav>
+
+    </header>
+    <main>
+        <div class="outer">
+            <div class="inner">
+                <div class="slider-image">
+                    <!-- <div class="btn-container">
+                        <button class="btn btn-left" onclick="left()"><i class="fa-solid fa-angle-left"></i> </button>
+                    </div> -->
+
+                    <div class="image">
+                        <img src="./../images/flower10.jpeg" alt="image">
+                        <!-- <img src="flower17.webp" alt="dcad"> -->
+                        <!-- <img src="flower18.webp" alt="sed"> -->
+                        <!-- <img src="flower19.webp" alt="sdd"> -->
+                        <!-- <div class="button-div">
+                    <button id="right-button" onclick="right()">
+                        Next
+                    </button>
+                    <button id="left-button" onclick="left()">Previous</button>
+                   </div> -->
+                    </div>
+                    <!-- <div class="btn-container">
+                        <button class="btn btn-right" onclick="right()"><i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div> -->
+                </div>
+
+                <!-- <button onclick="goNext()">
+                    next
+                </button>
+                <button onclick="goPrev()">previous</button> -->
+                <!-- <div class="flower-name">
+                    <h2>
+                        Rose & Lily Celebration
+                    </h2>
+                </div> -->
+                <div class="text-section">
+                    <h2>
+                        Floweraura <span id="red">Red</span> Rose & Flower
+                    </h2>
+                    <div class="selection-option">
+
+                        <div class="heading-name">
+
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                            <!-- <h3>Select Your Options</h3> -->
+                            <span>&nbsp; Select Your Options</span>
+                        </div>
+                        <div class="inner-box">
+
+                            <div class="regular">
+                                <!-- <h2>Regular</h2> -->
+                                <h3 onclick="bgcolor1()">Regular</h3>
+                                <p> <i id="rupee" class="fa-solid fa-indian-rupee-sign"></i> <del> 445.65</del>
+                                    &nbsp;&nbsp;<i id="rupee" class="fa-solid fa-indian-rupee-sign"></i>455.90</p>
+                            </div>
+                            <div class="deluxe">
+                                <!-- <h2>Deluxe</h2> -->
+                                <h3 onclick="bgcolor2()">Deluxe</h3>
+                                <p> <i id="rupee" class="fa-solid fa-indian-rupee-sign"></i><del>509.0 </del>
+                                    &nbsp;&nbsp;<i id="rupee" class="fa-solid fa-indian-rupee-sign"></i>489</p>
+                            </div>
+                            <div class="premium">
+                                <!-- <h2>Premium</h2> -->
+                                <h3 onclick="bgcolor3()">Premium</h3>
+                                <p id="pre"> <i id="rupee"
+                                        class="fa-solid fa-indian-rupee-sign"></i><del>529.90</del>&nbsp;&nbsp; <i
+                                        id="rupee" class="fa-solid fa-indian-rupee-sign"></i>509.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="make-special">
+                        <div class="heading-name">
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                            <!-- <h2>Make it Special</h2> -->
+                            <span>&nbsp; Make it Special</span>
+                            <br>
+
+                        </div>
+                        <div class="make-special-sub-inner">
+
+                            <div class="ballon">
+                                <div class="ballon-image">
+                                    <img src="ballon.jpg" alt="">
+                                </div>
+                                <div class="ballon-content">
+                                    <!-- <label for="ballons">Mylar Balloons</label> -->
+                                    <!-- <h3>Mylar Balloons</h3> -->
+                                    <p>Mylar Balloons &nbsp;₹5.00/each</p>
+                                    <!-- <span id="rupee-for-ballon"> <i id="rupee-for-ballon"
+                                        class="fa-solid fa-indian-rupee-sign"></i>119.0 </span> -->
+                                    <p></p>
+                                    <!-- <br> -->
+                                    <!-- <label for="quantity">Qty</label> -->
+                                    <select name="Quantity" id="Qty">
+                                        <option value="Qty">Qty</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <select name="ballon" id="">
+                                        <option value="ballon">Select Ballon</option>
+                                        <option value="Birthday">Birthday</option>
+                                        <option value="Anversary">Anversary</option>
+                                        <option value="Congratulation">Congratulation</option>
+                                        <option value="Get Well">Get Well</option>
+                                        <option value="Good luck">Good luck</option>
+                                        <option value="I love you">I love you</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="chocolate">
+                                <div class="chocolate-image">
+                                    <img src="choclate.jpg" alt="chocolate">
+                                </div>
+                                <!-- <span>Chocolate</span> -->
+                                <div class="chocolate-content">
+                                    <p>Chocolate</p>
+                                    <select name="ballon" id="">
+                                        <option value="ballon">Select Size</option>
+                                        <option value="Birthday">Small Box - ₹10.00</option>
+                                        <option value="Anversary">Medium Box - ₹15.00</option>
+                                        <option value="Congratulation">Large Box - ₹20.00</option>
+
+                                    </select>
+
+                                </div>
+                                <!-- <label for="chocolate">Chocolate</label> -->
+
+
+                            </div>
+                            <div class="teddy">
+                                <div class="teddy-image">
+                                    <img src="teddy.jpg" alt="">
+                                </div>
+                                <div class="teddy-content">
+                                    <p>Teddy Bear</p>
+                                    <select name="ballon" id="">
+                                        <option value="ballon">Select Size</option>
+                                        <option value="Birthday">Small Bear - ₹40.00</option>
+                                        <option value="Anversary">Medium Bear - ₹115.00</option>
+                                        <option value="Congratulation">Large Bear - ₹2200.00</option>
+
+                                    </select>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="delivery-part">
+                        <div class="heading-name">
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                            <span>&nbsp; Fill Delivery Informaiton</span>
+                        </div>
+                        <!-- <br> -->
+                        <label for="name">Name: </label>
+                        <!-- <br> -->
+                        <input type="text" id="name" name="name">
+                        <label for="phone">Phone No: </label>
+                        <input type="number" name="phone" id="phone">
+                        <br>
+                        <label for="date">Delivery Date</label>
+                        <!-- <a href="#">Choose Delivery Date</a> -->
+                        <input type="date">
+                        <label for="address" id="address">Address : &nbsp;</label>
+                        <input type="text">
+                        <button>Place Order</button>
+                        <!-- <button>Choose Delivery Date</button> -->
+                        
+
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="flower_part1.js"></script>
+</body>
+
+</html>
